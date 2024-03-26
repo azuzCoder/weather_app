@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  display: inline-block;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(71,79,122);
+  background: radial-gradient(circle, rgba(71,79,122,1) 0%, rgba(31,37,68,1) 100%);
+}
+
+.container .title {
+  display: flex;
+/*  justify-content: center;*/
+  align-items: center;
+  padding: 24px 0 0 40px;
+}
+
+.container .title-text {
+  margin-left: 24px;
+  color: #ffffff;
+}
+
+.container .logo {
+  display: inline-block;
+}
+
+.container .search {
+  margin-top: 10vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.container .search input {
+  font-size: 20px;
+  margin-right: 0;
+  padding: 8px 0 8px 16px;
+  border-width: 0;
+  border-radius: 40px 0 0 40px;
+}
+
+.container .search input:focus {
+  outline: 0;
+}
+
+.container .search button {
+  padding: 8px 16px;  
+  border-width: 0;
+  border-radius: 0 40px 40px 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.container .search button .search-icon {
+  height: 16px;
+}
+
+.container .main {
+  margin-top: 40px;
+  display: flex;
+  flex-grow: 1;
+  color: #ffffff;
+  align-items: center;
+  padding: 0 20vw 0 20vw;
+}
+
+.container .main .image {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  padding: 0 1vw 0 0;
+}
+
+.container .main .image p {
+  margin-left: auto;
+}
+
+.container .main .info {
+  flex: 1;
+  padding: 0 0 0 1vw;
+}
+
+.container .main .info .info-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .main .info .card {
+  flex: 0 1 100%;
+  justify-content: center;
+}
+
+.card .description {
+  text-align: center;
+}
+
+.city-country {
+  text-align: center;
+}
+
+.card #temp {
+  font-size: 72px;
+  font-weight: lighter;
+}
+
+.container .main .info h1 {
+
+}
+
+.additional {
+}
+
+.additional-info {
+  display: inline-block;
+}
+
+.space {
+  margin-top: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin-left {
+  margin-left: 16px;
+}
+
+.sub-text {
+  font-size: 12px;
+  color: #dbe3e0;
+}
+
+.container .main .image
